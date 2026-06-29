@@ -781,7 +781,9 @@ ORDER BY Conversion_Rate DESC;
 ## 10. Python Automation
 
 SQL query results were programmatically extracted and exported to CSV files using Python(Pandas), which were then utilized as the primary data source to build and refresh the interactive Tableau visualizations. 
-![SQL to CSV Automation Script](Python/SQLProjectCSVAutomation-checkpoint.ipynb)
+**[SQL to CSV Automation Script](Python/SQLProjectCSVAutomation-checkpoint.ipynb)
+
+---
 
 ## 11. Key Findings & Recommendations
 
