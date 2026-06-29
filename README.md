@@ -214,7 +214,7 @@ drop column row_num;
 
 ## 2. Funnel Analysis
 
-![Funnel Analysis Dashboard](screenshots/01_funnel_analysis.png)
+![Funnel Analysis Dashboard](screenshot/01_funnel_analysis.png)
 
 The funnel is the most important view in this analysis. It answers the most basic question: of all the people who visited, how many actually bought something?
 
@@ -270,7 +270,7 @@ The 312-session gap between View sessions (19,171) and View users (18,859) tells
 
 ## 3. Trend Analysis
 
-![Trend Analysis Dashboard](screenshots/02_trend_analysis.png)
+![Trend Analysis Dashboard](screenshot/02_trend_analysis.png)
 
 With the conversion problem identified, the next question is: does engagement vary over time, and are there patterns the business can act on?
 
