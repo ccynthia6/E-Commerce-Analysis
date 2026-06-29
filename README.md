@@ -23,6 +23,7 @@ This analysis uses **October 2019 clickstream data** to diagnose the conversion 
 ## Dataset & Tools
 
 | | |
+|---|---|
 | **Dataset** | [E-Commerce - Multi Category Store — October 2019](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store?select=2019-Oct.csv) |
 | **Sample Size** | 20,000 rows x 9 columns |
 | **Event Types** | View, Cart, Purchase |
