@@ -346,6 +346,7 @@ ORDER BY Total_Events DESC;
 ![Top Products by Revenue](screenshot/04_top_product_revenue.png)
 ![Conversion Rate - Category Wise](screenshot/04_conversion_rate_category.png)
 
+Now that we understand when people buy, we need to look at what they are buying. In a multi-category store, we can't treat all products the same—this analysis uncovers which specific departments are the heavy lifters driving our volume, and which ones are just taking up digital shelf space.
 
 ```sql
 -- Category-level funnel and conversion
@@ -427,6 +428,8 @@ ORDER BY Total_Revenue DESC;
 
 ![Revenue Analysis Dashboard](screenshot/05_revenue_analysis.png)
 
+Knowing what sells is great, but we need to talk about the bottom line. This shifts the focus from raw item counts to actual financial health: where is the cash flow coming from, are our average order values stable, and are certain categories bringing in a disproportionate amount of our revenue?
+
 ```sql
 -- Weekly revenue by category
 SELECT
@@ -505,6 +508,8 @@ ORDER BY Total_Revenue DESC;
 
 ![Brand Analysis Dashboard](screenshot/06_brand_analysis.png)
 
+Since we are a multi-category marketplace, we don't just sell products—we sell brands. This analysis looks at the power of brand equity: do customers gravitate toward specific labels, and do certain brands have an easier time pulling users down the purchase funnel than others?
+
 ```sql
 -- Brand funnel
 SELECT
@@ -561,6 +566,8 @@ ORDER BY Avg_Selling_Price DESC;
 ## 7. User Behaviour Analysis
 
 ![User Behaviour Dashboard](screenshot/07_user_behaviour.png)
+
+Up until this point, we've looked at products, revenue, and time. But what about the actual human beings clicking the buttons? This analysis dives into the shoppers themselves: are we surviving on a massive flood of one-time window shoppers, or do we have a loyal core of repeat buyers keeping the lights on?
 
 ```sql
 -- Sessions per user
@@ -635,6 +642,8 @@ ORDER BY Total_Events DESC;
 ## 8. Cart Abandonment Analysis
 
 ![Cart Abandonment Dashboard](screenshot/08_cart_abandonment.png)
+
+Looking at user behavior reveals a frustrating reality: a huge number of users add items to their cart but leave without paying. This is the closest a customer gets to giving us money before walking away—so we have to ask: exactly how much revenue are we leaving on the table right at the finish line, and why?
 
 ```sql
 -- Overall abandonment summary
@@ -717,7 +726,7 @@ ORDER BY Total_Lost_Revenue DESC;
 
 ## 9. Product-Level Analysis
 
-![Product Analysis Dashboard](screenshot/09_product_analysis.png)
+Finally, we zoom all the way into the micro-level. Macro trends and brand power are ultimately built on individual items. This final analysis pinpoints our specific "hero products" that single-handedly attract traffic, as well as the underperforming individual SKUs that might be hurting our overall margins.
 
 ```sql
 -- View-to-purchase ratio per product
@@ -754,6 +763,8 @@ ORDER BY Conversion_Rate DESC;
 ```
 
 ### Results
+
+![Product Analysis Dashboard](screenshot/09_product_analysis.png)
 
 **Most-viewed products vs purchases:**
 
