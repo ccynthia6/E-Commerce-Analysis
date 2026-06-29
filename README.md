@@ -45,7 +45,8 @@ This analysis uses **October 2019 clickstream data** to diagnose the conversion 
 7. [User Behaviour Analysis](#7-user-behaviour-analysis)
 8. [Cart Abandonment Analysis](#8-cart-abandonment-analysis)
 9. [Product-Level Analysis](#9-product-level-analysis)
-10. [Key Findings & Recommendations](#10-key-findings--recommendations)
+10. [Python Automation](#10-python-automation)
+11. [Key Findings & Recommendations](#10-key-findings--recommendations)
 
 ---
 
@@ -777,7 +778,12 @@ ORDER BY Conversion_Rate DESC;
 
 ---
 
-## 10. Key Findings & Recommendations
+## 10. Python Automation
+
+SQL query results were programmatically extracted and exported to CSV files using Python(Pandas), which were then utilized as the primary data source to build and refresh the interactive Tableau visualizations. 
+![SQL to CSV Automation Script](Python/
+
+## 11. Key Findings & Recommendations
 
 ### Summary of Findings
 
