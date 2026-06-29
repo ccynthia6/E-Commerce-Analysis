@@ -271,8 +271,6 @@ The 312-session gap between View sessions (19,171) and View users (18,859) tells
 
 ## 3. Trend Analysis
 
-![Trend Analysis Dashboard](screenshot/02_trend_analysis.png)
-
 With the conversion problem identified, the next question is: does engagement vary over time, and are there patterns the business can act on?
 
 ```sql
@@ -335,16 +333,13 @@ ORDER BY Total_Events DESC;
 | Saturday | 2,742 |
 | Monday | 2,470 (lowest) |
 
+![Trend Analysis Dashboard](screenshot/02_trend_analysis.png)
+
 > **Traffic peaks mid-week (Tuesday–Thursday) and dips on Monday.** If the business is running promotions or sending email campaigns, Tuesday is the highest-engagement day. Weekend traffic is moderate but consistent — suggesting a mix of impulse and deliberate shoppers.
 
 ---
 
 ## 4. Category & Sub-Category Performance
-
-![Category Performance](screenshot/03_category.png)
-![Sub-Category Performance](screenshot/03_sub_category.png)
-![Top Products by Revenue](screenshot/04_top_product_revenue.png)
-![Conversion Rate - Category Wise](screenshot/04_conversion_rate_category.png)
 
 Now that we understand when people buy, we need to look at what they are buying. In a multi-category store, we can't treat all products the same—this analysis uncovers which specific departments are the heavy lifters driving our volume, and which ones are just taking up digital shelf space.
 
@@ -420,13 +415,16 @@ ORDER BY Total_Revenue DESC;
 | Refrigerators | $1,955 |
 | Vacuum | $962 |
 
+![Category Performance](screenshot/03_category.png)
+![Sub-Category Performance](screenshot/03_sub_category.png)
+![Top Products by Revenue](screenshot/04_top_product_revenue.png)
+![Conversion Rate - Category Wise](screenshot/04_conversion_rate_category.png)
+
 > **Electronics dominates in both volume and revenue** — 7,134 views, 196 purchases, $79,274 total revenue. But Sport has the highest conversion rate (3.13%) despite minimal traffic (96 views), suggesting strong purchase intent among the few who visit. **Apparel and Furniture have near-zero cart rates despite meaningful traffic** — a clear signal that product presentation, pricing, or discoverability is failing in those categories.
 
 ---
 
 ## 5. Revenue Analysis
-
-![Revenue Analysis Dashboard](screenshot/05_revenue_analysis.png)
 
 Knowing what sells is great, but we need to talk about the bottom line. This shifts the focus from raw item counts to actual financial health: where is the cash flow coming from, are our average order values stable, and are certain categories bringing in a disproportionate amount of our revenue?
 
@@ -500,13 +498,13 @@ ORDER BY Total_Revenue DESC;
 | Xiaomi | $3,284 |
 | Unbranded | $3,228 |
 
+![Revenue Analysis Dashboard](screenshot/05_revenue_analysis.png) 
+
 > **Apple alone accounts for $48,842 — more than half of Electronics revenue.** Samsung is a distant second at $19,979. This extreme brand concentration is a business risk: if Apple products were out of stock or priced uncompetitively, revenue would collapse. Weekly revenue shows fluctuation between ~$19K–$23K without a consistent growth trend, suggesting no active acquisition or retention strategy was running in October.
 
 ---
 
 ## 6. Brand Analysis
-
-![Brand Analysis Dashboard](screenshot/06_brand_analysis.png)
 
 Since we are a multi-category marketplace, we don't just sell products—we sell brands. This analysis looks at the power of brand equity: do customers gravitate toward specific labels, and do certain brands have an easier time pulling users down the purchase funnel than others?
 
@@ -559,13 +557,13 @@ ORDER BY Avg_Selling_Price DESC;
 | Apple | 3.76% |
 | Samsung | 3.38% |
 
+![Brand Analysis Dashboard](screenshot/06_brand_analysis.png)
+
 > **Unbranded products have 2,780 views but only a 0.83% conversion rate** — the worst among high-traffic options. These are products with no brand attribution, suggesting poor product data quality. Fixing brand metadata or curating these listings could convert a meaningful portion of that traffic. Meanwhile, niche brands like Rondell and Michelin show that targeted, high-intent audiences convert exceptionally well even with low traffic volumes.
 
 ---
 
 ## 7. User Behaviour Analysis
-
-![User Behaviour Dashboard](screenshot/07_user_behaviour.png)
 
 Up until this point, we've looked at products, revenue, and time. But what about the actual human beings clicking the buttons? This analysis dives into the shoppers themselves: are we surviving on a massive flood of one-time window shoppers, or do we have a loyal core of repeat buyers keeping the lights on?
 
@@ -635,13 +633,13 @@ ORDER BY Total_Events DESC;
 | Converted | 346 |
 | Not Converted | **19,609** |
 
+![User Behaviour Dashboard](screenshot/07_user_behaviour.png)
+
 > **The platform has almost no repeat buyers in this dataset — 346 one-time buyers and zero repeat purchasers.** 98.2% of users are non-buyers. The overwhelming majority (19,310) only visit once and leave. This points to a significant retention and re-engagement gap. The business is spending resources on customer acquisition but has no visible mechanism to bring customers back. Even converting a small fraction of existing non-buyers into one-time buyers — without any new acquisition spend — would materially move the revenue needle.
 
 ---
 
 ## 8. Cart Abandonment Analysis
-
-![Cart Abandonment Dashboard](screenshot/08_cart_abandonment.png)
 
 Looking at user behavior reveals a frustrating reality: a huge number of users add items to their cart but leave without paying. This is the closest a customer gets to giving us money before walking away—so we have to ask: exactly how much revenue are we leaving on the table right at the finish line, and why?
 
@@ -720,6 +718,8 @@ ORDER BY Total_Lost_Revenue DESC;
 | Acer | $6,179 |
 | Huawei | $5,863 |
 
+![Cart Abandonment Dashboard](screenshot/08_cart_abandonment.png)
+
 > **Apple's abandoned carts represent $68,320 in lost revenue — the single largest recoverable opportunity in this dataset.** Samsung adds another $39,722. Together, these two brands account for the majority of cart abandonment loss. Given that both brands have strong conversion rates when they do convert, this is likely a friction issue (checkout hesitation, price comparison) rather than a product quality issue. A targeted cart recovery email sequence for Apple and Samsung carts could capture a significant portion of this revenue.
 
 ---
@@ -764,8 +764,6 @@ ORDER BY Conversion_Rate DESC;
 
 ### Results
 
-![Product Analysis Dashboard](screenshot/09_product_analysis.png)
-
 **Most-viewed products vs purchases:**
 
 | Product | Views | Purchases |
@@ -784,6 +782,8 @@ ORDER BY Conversion_Rate DESC;
 | Above $500 | 1.96% |
 | $200–$500 | 1.63% |
 | Under $50 | 1.46% (lowest) |
+
+![Product Analysis Dashboard](screenshot/09_product_analysis.png)
 
 > **Headphones have the best purchase-to-view ratio among high-traffic products (17 purchases from 504 views).** TVs, despite being the highest-revenue product overall, convert at a lower rate — likely due to higher prices prompting more deliberate decision-making. The price bucket analysis reveals a counterintuitive finding: **products above $500 convert at nearly the same rate as the $50–$200 range**, suggesting high-value customers are not particularly price-sensitive. The weakest conversion is in the under-$50 range, where the assortment may lack compelling or well-presented products.
 
