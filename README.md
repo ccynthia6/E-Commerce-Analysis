@@ -215,8 +215,6 @@ drop column row_num;
 
 ## 2. Funnel Analysis
 
-![Funnel Analysis Dashboard](screenshot/01_Funnel_Analysis.png)
-
 The funnel is the most important view in this analysis. It answers the most basic question: of all the people who visited, how many actually bought something?
 
 ```sql
@@ -262,6 +260,8 @@ FROM user_session_rates;
 | View → Cart | **2.32%** |
 | Cart → Purchase | **79.00%** |
 | Overall (View → Purchase) | **1.83%** |
+
+![Funnel Analysis Dashboard](screenshot/01_Funnel_Analysis.png)
 
 > **The critical finding: 97.7% of sessions that view a product never add anything to cart. But once a user does add to cart, 79% go on to purchase.** The business is not losing customers at checkout — it is losing them during browsing. The entire conversion problem sits at the View → Cart stage.
 
