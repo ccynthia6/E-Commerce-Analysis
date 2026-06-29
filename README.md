@@ -1,4 +1,4 @@
-# E-Commerce Clickstream Analysis: Why Are Customers Not Buying?
+# E-Commerce Clickstream Analysis
 ### SQL · SQLite · DBeaver · Python · Tableau
 
 ---
