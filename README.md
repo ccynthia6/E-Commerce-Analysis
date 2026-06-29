@@ -340,10 +340,10 @@ ORDER BY Total_Events DESC;
 
 ## 4. Category & Sub-Category Performance
 
-![Category Performance](screenshots/03_category.png)
-![Sub-Category Performance](screenshots/03_sub_category.png)
-![Top Products by Revenue](screenshots/04_top_products_revenue.png)
-![Conversion Rate - Category Wise](screenshots/04_conversion_rate_category.png)
+![Category Performance](screenshot/03_category.png)
+![Sub-Category Performance](screenshot/03_sub_category.png)
+![Top Products by Revenue](screenshot/04_top_products_revenue.png)
+![Conversion Rate - Category Wise](screenshot/04_conversion_rate_category.png)
 
 
 ```sql
@@ -424,7 +424,7 @@ ORDER BY Total_Revenue DESC;
 
 ## 5. Revenue Analysis
 
-![Revenue Analysis Dashboard](screenshots/05_revenue_analysis.png)
+![Revenue Analysis Dashboard](screenshot/05_revenue_analysis.png)
 
 ```sql
 -- Weekly revenue by category
@@ -502,7 +502,7 @@ ORDER BY Total_Revenue DESC;
 
 ## 6. Brand Analysis
 
-![Brand Analysis Dashboard](screenshots/06_brand_analysis.png)
+![Brand Analysis Dashboard](screenshot/06_brand_analysis.png)
 
 ```sql
 -- Brand funnel
@@ -559,7 +559,7 @@ ORDER BY Avg_Selling_Price DESC;
 
 ## 7. User Behaviour Analysis
 
-![User Behaviour Dashboard](screenshots/07_user_behaviour.png)
+![User Behaviour Dashboard](screenshot/07_user_behaviour.png)
 
 ```sql
 -- Sessions per user
@@ -633,7 +633,7 @@ ORDER BY Total_Events DESC;
 
 ## 8. Cart Abandonment Analysis
 
-![Cart Abandonment Dashboard](screenshots/08_cart_abandonment.png)
+![Cart Abandonment Dashboard](screenshot/08_cart_abandonment.png)
 
 ```sql
 -- Overall abandonment summary
@@ -716,7 +716,7 @@ ORDER BY Total_Lost_Revenue DESC;
 
 ## 9. Product-Level Analysis
 
-![Product Analysis Dashboard](screenshots/09_product_analysis.png)
+![Product Analysis Dashboard](screenshot/09_product_analysis.png)
 
 ```sql
 -- View-to-purchase ratio per product
