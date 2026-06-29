@@ -1,4 +1,4 @@
-# E-Commerce Clickstream Analysis
+# E-Commerce Multi Category Analysis
 ### SQL · SQLite · DBeaver · Python · Tableau
 
 ---
@@ -9,7 +9,7 @@ An e-commerce retailer has a fundamental question it cannot answer from its sale
 
 Revenue numbers tell you *how much* was sold. Clickstream data tells you *why* customers didn't buy — where they dropped off, what they viewed, what they added to cart and then abandoned, and what the highest-value lost opportunities look like.
 
-This analysis uses **October 2019 clickstream data** to diagnose the conversion problem, identify which categories, brands, and products are underperforming relative to their traffic, and surface actionable recommendations for the business.
+This analysis uses **October 2019 Multi Category data** to diagnose the conversion problem, identify which categories, brands, and products are underperforming relative to their traffic, and surface actionable recommendations for the business.
 
 **Key questions this project answers:**
 - Where exactly in the funnel are customers dropping off?
