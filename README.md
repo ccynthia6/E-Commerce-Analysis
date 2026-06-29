@@ -24,7 +24,7 @@ This analysis uses **October 2019 clickstream data** to diagnose the conversion 
 
 | | |
 |---|---|
-| **Dataset** | UCI E-Commerce Clickstream — October 2019 |
+| **Dataset** | [E-Commerce - Multi Category Store — October 2019](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store?select=2019-Oct.csv) |
 | **Sample Size** | 20,000 rows |
 | **Event Types** | View, Cart, Purchase |
 | **Fields** | event_time, event_type, product_id, category_code, brand, price, user_id, user_session |
