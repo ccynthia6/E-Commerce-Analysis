@@ -215,7 +215,7 @@ drop column row_num;
 
 ## 2. Funnel Analysis
 
-![Funnel Analysis Dashboard](screenshot/01_funnel_analysis.png)
+![Funnel Analysis Dashboard](screenshot/01_Funnel_Analysis.png)
 
 The funnel is the most important view in this analysis. It answers the most basic question: of all the people who visited, how many actually bought something?
 
