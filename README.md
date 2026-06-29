@@ -342,7 +342,7 @@ ORDER BY Total_Events DESC;
 
 ![Category Performance](screenshot/03_category.png)
 ![Sub-Category Performance](screenshot/03_sub_category.png)
-![Top Products by Revenue](screenshot/04_top_products_revenue.png)
+![Top Products by Revenue](screenshot/04_top_product_revenue.png)
 ![Conversion Rate - Category Wise](screenshot/04_conversion_rate_category.png)
 
 
