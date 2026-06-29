@@ -340,8 +340,11 @@ ORDER BY Total_Events DESC;
 
 ## 4. Category & Sub-Category Performance
 
-![Category and Sub-Category Dashboard](screenshots/03_category_subcategory.png)
+![Category Performance](screenshots/03_category.png)
+![Sub-Category Performance](screenshots/03_sub_category.png)
 ![Top Products by Revenue](screenshots/04_top_products_revenue.png)
+![Conversion Rate - Category Wise](screenshots/04_conversion_rate_category.png)
+
 
 ```sql
 -- Category-level funnel and conversion
