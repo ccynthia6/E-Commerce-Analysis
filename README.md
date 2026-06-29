@@ -335,7 +335,9 @@ ORDER BY Total_Events DESC;
 
 ![Trend Analysis Dashboard](screenshot/02_trend_analysis.png)
 
-> **Traffic peaks mid-week (Tuesday–Thursday) and dips on Monday.** If the business is running promotions or sending email campaigns, Tuesday is the highest-engagement day. Weekend traffic is moderate but consistent — suggesting a mix of impulse and deliberate shoppers.
+> **The critical finding:** **Traffic peaks mid-week (Tuesday–Thursday) and dips on Monday.** If the business is running promotions or sending email campaigns, Tuesday is the highest-engagement day. Weekend traffic is moderate but consistent — suggesting a mix of impulse and deliberate shoppers.
+
+The sharp contrast between peak mid-week traffic and the Monday dip reveals a workforce-driven browsing pattern where users engage most during standard business hours. This tells us that our audience treats shopping as a mid-week distraction, making late-night or weekend marketing campaigns completely out of sync with their natural browsing habits.
 
 ---
 
@@ -420,7 +422,9 @@ ORDER BY Total_Revenue DESC;
 ![Top Products by Revenue](screenshot/04_top_product_revenue.png)
 ![Conversion Rate - Category Wise](screenshot/04_conversion_rate_category.png)
 
-> **Electronics dominates in both volume and revenue** — 7,134 views, 196 purchases, $79,274 total revenue. But Sport has the highest conversion rate (3.13%) despite minimal traffic (96 views), suggesting strong purchase intent among the few who visit. **Apparel and Furniture have near-zero cart rates despite meaningful traffic** — a clear signal that product presentation, pricing, or discoverability is failing in those categories.
+> **The critical finding:** **Electronics dominates in both volume and revenue** — 7,134 views, 196 purchases, $79,274 total revenue. But Sport has the highest conversion rate (3.13%) despite minimal traffic (96 views), suggesting strong purchase intent among the few who visit. **Apparel and Furniture have near-zero cart rates despite meaningful traffic** — a clear signal that product presentation, pricing, or discoverability is failing in those categories.
+
+The massive disconnect where Apparel and Furniture accumulate thousands of views but fail to convert proves that high traffic does not equal market viability on our platform. The business is burning customer acquisition costs pulling users into dead-end categories, while completely ignoring the small but hyper-efficient Sport category that converts visitors at a rate three times higher than the site baseline.
 
 ---
 
@@ -500,7 +504,9 @@ ORDER BY Total_Revenue DESC;
 
 ![Revenue Analysis Dashboard](screenshot/05_revenue_analysis.png) 
 
-> **Apple alone accounts for $48,842 — more than half of Electronics revenue.** Samsung is a distant second at $19,979. This extreme brand concentration is a business risk: if Apple products were out of stock or priced uncompetitively, revenue would collapse. Weekly revenue shows fluctuation between ~$19K–$23K without a consistent growth trend, suggesting no active acquisition or retention strategy was running in October.
+> **The critical finding:** **Apple alone accounts for $48,842 — more than half of Electronics revenue.** Samsung is a distant second at $19,979. This extreme brand concentration is a business risk: if Apple products were out of stock or priced uncompetitively, revenue would collapse. Weekly revenue shows fluctuation between ~$19K–$23K without a consistent growth trend, suggesting no active acquisition or retention strategy was running in October.
+
+The fact that our weekly revenue completely plateaus between $19K–$23K while Apple single-handedly controls over half the market highlights a dangerously passive revenue model. We aren't growing a customer base; we are simply riding the wave of existing Apple demand, meaning our financial health is entirely tied to another company's product cycle rather than our own store's growth strategies.
 
 ---
 
@@ -559,7 +565,9 @@ ORDER BY Avg_Selling_Price DESC;
 
 ![Brand Analysis Dashboard](screenshot/06_brand_analysis.png)
 
-> **Unbranded products have 2,780 views but only a 0.83% conversion rate** — the worst among high-traffic options. These are products with no brand attribution, suggesting poor product data quality. Fixing brand metadata or curating these listings could convert a meaningful portion of that traffic. Meanwhile, niche brands like Rondell and Michelin show that targeted, high-intent audiences convert exceptionally well even with low traffic volumes.
+> **The critical finding:** **Unbranded products have 2,780 views but only a 0.83% conversion rate** — the worst among high-traffic options. These are products with no brand attribution, suggesting poor product data quality. Fixing brand metadata or curating these listings could convert a meaningful portion of that traffic. Meanwhile, niche brands like Rondell and Michelin show that targeted, high-intent audiences convert exceptionally well even with low traffic volumes.
+
+The massive pool of 2,780 views spent on completely unbranded items represents a massive sinkhole for our ad spend and organic traffic. We are successfully pulling thousands of eyes into the store, but forcing them to browse blind without trusted brand names, causing a catastrophic drop-off that squanders high-intent traffic on completely anonymous listings.
 
 ---
 
@@ -635,7 +643,9 @@ ORDER BY Total_Events DESC;
 
 ![User Behaviour Dashboard](screenshot/07_user_behaviour.png)
 
-> **The platform has almost no repeat buyers in this dataset — 346 one-time buyers and zero repeat purchasers.** 98.2% of users are non-buyers. The overwhelming majority (19,310) only visit once and leave. This points to a significant retention and re-engagement gap. The business is spending resources on customer acquisition but has no visible mechanism to bring customers back. Even converting a small fraction of existing non-buyers into one-time buyers — without any new acquisition spend — would materially move the revenue needle.
+> **The critical finding:** **The platform has almost no repeat buyers in this dataset — 346 one-time buyers and zero repeat purchasers.** 98.2% of users are non-buyers. The overwhelming majority (19,310) only visit once and leave. This points to a significant retention and re-engagement gap. The business is spending resources on customer acquisition but has no visible mechanism to bring customers back. Even converting a small fraction of existing non-buyers into one-time buyers — without any new acquisition spend — would materially move the revenue needle.
+
+The total absence of repeat buyers combined with the massive ocean of 19,310 one-time visitors proves our store is operating as a leaky bucket. We are successfully paying to get people through the front door, but our post-purchase experience is so stagnant that 100% of our customers vanish the moment their initial transaction or session concludes.
 
 ---
 
@@ -720,7 +730,9 @@ ORDER BY Total_Lost_Revenue DESC;
 
 ![Cart Abandonment Dashboard](screenshot/08_cart_abandonment.png)
 
-> **Apple's abandoned carts represent $68,320 in lost revenue — the single largest recoverable opportunity in this dataset.** Samsung adds another $39,722. Together, these two brands account for the majority of cart abandonment loss. Given that both brands have strong conversion rates when they do convert, this is likely a friction issue (checkout hesitation, price comparison) rather than a product quality issue. A targeted cart recovery email sequence for Apple and Samsung carts could capture a significant portion of this revenue.
+> **The critical finding:** **Apple's abandoned carts represent $68,320 in lost revenue — the single largest recoverable opportunity in this dataset.** Samsung adds another $39,722. Together, these two brands account for the majority of cart abandonment loss. Given that both brands have strong conversion rates when they do convert, this is likely a friction issue (checkout hesitation, price comparison) rather than a product quality issue. A targeted cart recovery email sequence for Apple and Samsung carts could capture a significant portion of this revenue.
+
+The large six-figure sum left sitting in abandoned Apple and Samsung carts reveals that our biggest revenue loss occurs at the absolute peak of customer intent. Users are doing all the heavy lifting of researching and selecting premium tech, only to walk away at the final payment screen—proving that a tiny bit of checkout friction or pricing shock is single-handedly neutralizing our most valuable conversions.
 
 ---
 
@@ -785,7 +797,9 @@ ORDER BY Conversion_Rate DESC;
 
 ![Product Analysis Dashboard](screenshot/09_product_analysis.png)
 
-> **Headphones have the best purchase-to-view ratio among high-traffic products (17 purchases from 504 views).** TVs, despite being the highest-revenue product overall, convert at a lower rate — likely due to higher prices prompting more deliberate decision-making. The price bucket analysis reveals a counterintuitive finding: **products above $500 convert at nearly the same rate as the $50–$200 range**, suggesting high-value customers are not particularly price-sensitive. The weakest conversion is in the under-$50 range, where the assortment may lack compelling or well-presented products.
+> **The critical finding:** **Headphones have the best purchase-to-view ratio among high-traffic products (17 purchases from 504 views).** TVs, despite being the highest-revenue product overall, convert at a lower rate — likely due to higher prices prompting more deliberate decision-making. The price bucket analysis reveals a counterintuitive finding: **products above $500 convert at nearly the same rate as the $50–$200 range**, suggesting high-value customers are not particularly price-sensitive. The weakest conversion is in the under-$50 range, where the assortment may lack compelling or well-presented products.
+
+The fact that premium products over $500 keep pace with the $50–$200 range while the under-$50 category bottoms out completely shatters the assumption that lower prices drive higher volume. Our platform successfully commands luxury intent, but our budget assortment is so poorly curated or presented that bargain shoppers would rather leave the site entirely than spend a nominal amount on our low-tier inventory.
 
 ---
 
