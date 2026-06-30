@@ -46,7 +46,7 @@ This analysis uses **October 2019 Multi Category data** to diagnose the conversi
 8. [Cart Abandonment Analysis](#8-cart-abandonment-analysis)
 9. [Product-Level Analysis](#9-product-level-analysis)
 10. [Python Automation](#10-python-automation)
-11. [Key Findings & Recommendations](#10-key-findings--recommendations)
+11. [Key Findings & Recommendations](#10-key-findings-recommendations)
 
 ---
 
