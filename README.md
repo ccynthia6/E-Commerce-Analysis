@@ -805,8 +805,8 @@ The fact that premium products over $500 keep pace with the $50–$200 range whi
 
 ## 10. Python Automation
 
-SQL query results were programmatically extracted and exported to CSV files using Python(Pandas), which were then utilized as the primary data source to build and refresh the interactive Tableau visualizations. 
-**[SQL to CSV Automation Script](Python/SQLProjectCSVAutomation-checkpoint.ipynb)
+SQL query results were programmatically extracted and exported to CSV files using Python(Pandas), which were then utilized as the primary data source to build and refresh the interactive Tableau visualizations.  
+[SQL to CSV Automation Script](Python/SQLProjectCSVAutomation-checkpoint.ipynb)
 
 ---
 
